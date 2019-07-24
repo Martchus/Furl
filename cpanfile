@@ -1,7 +1,6 @@
 requires 'perl', 5.008_001;
 
 requires 'HTTP::Parser::XS' => 0.11;
-requires 'Mozilla::CA';
 requires 'MIME::Base64';
 requires 'Class::Accessor::Lite';
 requires 'Encode';

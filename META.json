@@ -71,7 +71,6 @@
             "Encode" : "0",
             "HTTP::Parser::XS" : "0.11",
             "MIME::Base64" : "0",
-            "Mozilla::CA" : "0",
             "Scalar::Util" : "0",
             "Socket" : "0",
             "Time::HiRes" : "0",

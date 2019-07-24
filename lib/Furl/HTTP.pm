@@ -686,12 +686,6 @@ sub _ssl_opts {
             $ssl_opts->{SSL_verifycn_scheme} = 'www'
         }
     }
-    if ($ssl_opts->{SSL_verify_mode}) {
-        unless (exists $ssl_opts->{SSL_ca_file} || exists $ssl_opts->{SSL_ca_path}) {
-            require Mozilla::CA;
-            $ssl_opts->{SSL_ca_file} = Mozilla::CA::SSL_ca_file();
-        }
-    }
     $ssl_opts;
 }
 
